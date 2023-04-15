@@ -1,9 +1,9 @@
 
 
-function Card(obj){
+function Card({name}){
     
     return (
-      <p>Hello Namaste From {obj.name}</p>
+      <p>Hello Namaste From {name}</p>
     );
 }
 

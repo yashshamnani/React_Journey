@@ -10,6 +10,7 @@ function Shared() {
       <>
        <Header />
        <Outlet />
+       {/* The <Outlet> renders the current route selected. */}
        <Cards />
        <Footer />
       </>

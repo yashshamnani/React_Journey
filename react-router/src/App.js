@@ -8,7 +8,9 @@ import Shared from './components/Shared';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter> 
+     {/* browserrouter is used to connect react app with browser URL  */}
+     {/* Navlink will add an active class to your linkk */}
     <Routes>
       <Route path="/" element = {<Shared /> } > 
          <Route path = 'Home'  element = {<Home /> } /> 

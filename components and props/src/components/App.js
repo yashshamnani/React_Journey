@@ -6,7 +6,7 @@ function App() {
   
   return (
     <> 
-     <div class = "bg-blue-800">Hello World</div>
+     <div class='text-3xl font-bold underline '>Hello World</div>
      <Card name = "yash" />
      <Card name = "Harsh" />
      <Card name = "Akshay" />
