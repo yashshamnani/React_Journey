@@ -19,8 +19,7 @@ function App() {
     <div className="App" onClick={()=>console.log('App')}>
        <AddVideo addVideos={addVideos}></AddVideo>
        <VideoList videos={videos}></VideoList>
-
-
+ 
     </div>
   );
 }

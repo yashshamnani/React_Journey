@@ -7,7 +7,8 @@ function App() {
   console.log('render App')
   const [editableVideo,setEditableVideo] = useState(null);
 
-  function videoReducer(videos,action){
+  function videoReducer(videos,action){//it takes state and action
+    //reducer will always return state
     switch(action.type){
       case 'ADD':
         return [
@@ -28,7 +29,7 @@ function App() {
 
   }
 
-  const [videos,dispatch] = useReducer(videoReducer,videoDB)
+  const [videos,dispatch] = useReducer(videoReducer,videoDB)//usereducer(reducerfunction,initialstate) it provide array of state and dispatchfunction
 
 
   function editVideo(id){

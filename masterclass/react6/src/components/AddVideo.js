@@ -19,8 +19,9 @@ function AddVideo({addVideos}) {
 
   }
   function handleChange(e) {
+    console.log(e.target.name)
     setVideo({...video,
-        [e.target.name] : e.target.value
+        [e.target.name] : e.target.value//title : input.value and views : input.value
     })
   }
 

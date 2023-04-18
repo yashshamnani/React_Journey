@@ -11,7 +11,7 @@ const initialState = {
 
 function AddVideo({addVideos,updateVideo,editableVideo}) {
   const [video, setVideo] = useState(initialState);
-
+  
   
   function handleSubmit(e) {
     e.preventDefault();
@@ -22,6 +22,7 @@ function AddVideo({addVideos,updateVideo,editableVideo}) {
     }
     
     setVideo(initialState)
+    
 
   }
   function handleChange(e) {

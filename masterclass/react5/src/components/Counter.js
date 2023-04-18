@@ -7,17 +7,13 @@ function Counter(){
     function handleClick(e){
         e.stopPropagation();
        
-       setNumber(number=>number+1);
-       setNumber(number=>number+1);
-       setNumber(number=>number+1);
-    //   setNumber(number+1)
-    //   setNumber(number+1)
-    //   setNumber(number+1)
-
-
-
-        
-        console.log(number)
+       setNumber(number=>number+1);  //number is 0
+       setNumber(number=>number+1);  //number is 1
+       setNumber(number=>number+1);  //number is 2
+    //   setNumber(number+1)  //number is 0
+    //   setNumber(number+1)  //number is 0
+    //   setNumber(number+1)  //number is 0
+      console.log(number)
     }
 
     return(
